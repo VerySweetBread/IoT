@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "assignedCustomers" : null,
+    "assignedCustomers" : [ ],
     "configuration" : {
       "description" : "",
       "widgets" : {
@@ -14,11 +14,11 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "e3f7fa60-bbbc-11ef-aa1a-c7ef7e3e9e56",
+              "deviceId" : "6547d2a0-bbe7-11ef-96fd-a1327cf7f046",
               "dataKeys" : [ {
                 "name" : "cold_water_out",
                 "type" : "timeseries",
-                "label" : "Water in",
+                "label" : "Water Out",
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.45380458657402456,
@@ -138,7 +138,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "e3f7fa60-bbbc-11ef-aa1a-c7ef7e3e9e56",
+              "deviceId" : "655714e0-bbe7-11ef-96fd-a1327cf7f046",
               "dataKeys" : [ {
                 "name" : "cold_water_in",
                 "type" : "timeseries",
@@ -262,7 +262,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "43225bf0-bbd8-11ef-aa1a-c7ef7e3e9e56",
+              "deviceId" : "6547d2a0-bbe7-11ef-96fd-a1327cf7f046",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -409,21 +409,21 @@
               "widgets" : {
                 "c85c50ac-b0e5-7dcb-bbde-a5168dfb9c20" : {
                   "sizeX" : 24,
-                  "sizeY" : 5,
+                  "sizeY" : 8,
                   "row" : 0,
                   "col" : 0
                 },
                 "672d267f-65f7-1509-d2ae-1343ea02f602" : {
-                  "sizeX" : 13,
+                  "sizeX" : 8,
                   "sizeY" : 5,
-                  "row" : 5,
+                  "row" : 8,
                   "col" : 0
                 },
                 "2a69925c-c3f9-4f8b-f0c0-445ce8fcdf0f" : {
-                  "sizeX" : 11,
+                  "sizeX" : 8,
                   "sizeY" : 5,
-                  "row" : 5,
-                  "col" : 13
+                  "row" : 13,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
@@ -479,7 +479,10 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "46a5d900-bbba-11ef-aa1a-c7ef7e3e9e56"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "46a5d900-bbba-11ef-aa1a-c7ef7e3e9e56"
