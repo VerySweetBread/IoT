@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "assignedCustomers" : null,
+    "assignedCustomers" : [ ],
     "configuration" : {
       "description" : "This is Remizov Kirill, Zaxarov Gleb and Terehov Dmitriy yeared work for IOT",
       "widgets" : {
@@ -742,6 +742,22 @@
               }
             }
           }
+        },
+        "cotelroom" : {
+          "name" : "cotelRoom",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
         }
       },
       "entityAliases" : {
@@ -811,7 +827,10 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "f68eef30-bbb2-11ef-931f-419fe58c9dc2"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "f68eef30-bbb2-11ef-931f-419fe58c9dc2"
