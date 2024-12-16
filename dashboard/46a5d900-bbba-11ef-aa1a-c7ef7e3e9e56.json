@@ -18,7 +18,7 @@
               "dataKeys" : [ {
                 "name" : "cold_water_out",
                 "type" : "timeseries",
-                "label" : "Water Out",
+                "label" : "Water in",
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.45380458657402456,
@@ -409,21 +409,21 @@
               "widgets" : {
                 "c85c50ac-b0e5-7dcb-bbde-a5168dfb9c20" : {
                   "sizeX" : 24,
-                  "sizeY" : 8,
+                  "sizeY" : 5,
                   "row" : 0,
                   "col" : 0
                 },
                 "672d267f-65f7-1509-d2ae-1343ea02f602" : {
-                  "sizeX" : 8,
+                  "sizeX" : 13,
                   "sizeY" : 5,
-                  "row" : 8,
+                  "row" : 5,
                   "col" : 0
                 },
                 "2a69925c-c3f9-4f8b-f0c0-445ce8fcdf0f" : {
-                  "sizeX" : 8,
+                  "sizeX" : 11,
                   "sizeY" : 5,
-                  "row" : 13,
-                  "col" : 0
+                  "row" : 5,
+                  "col" : 13
                 }
               },
               "gridSettings" : {
