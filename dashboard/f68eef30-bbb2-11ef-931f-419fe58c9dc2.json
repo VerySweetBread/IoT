@@ -124,7 +124,22 @@
               }
             } ],
             "widgetStyle" : { },
-            "actions" : { },
+            "actions" : {
+              "nodeSelected" : [ {
+                "name" : "KottelRomm",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "cotelroom",
+                "setEntityId" : true,
+                "stateEntityParamName" : "Котельная",
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "d886d38a-d61b-efa9-2f01-5b8dcddd09e7"
+              } ]
+            },
             "displayTimewindow" : true
           },
           "row" : 0,
