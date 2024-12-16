@@ -19,7 +19,10 @@
         }
       }
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "NOTIFICATION_TEMPLATE",
+      "id" : "cce1f960-be1b-11ee-bd46-eb4aad351550"
+    },
     "id" : {
       "entityType" : "NOTIFICATION_TEMPLATE",
       "id" : "cce1f960-be1b-11ee-bd46-eb4aad351550"

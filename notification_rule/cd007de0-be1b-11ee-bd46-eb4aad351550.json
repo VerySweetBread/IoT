@@ -5,7 +5,10 @@
       "description" : "Send notification to tenant admins when device is created"
     },
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "NOTIFICATION_RULE",
+      "id" : "cd007de0-be1b-11ee-bd46-eb4aad351550"
+    },
     "id" : {
       "entityType" : "NOTIFICATION_RULE",
       "id" : "cd007de0-be1b-11ee-bd46-eb4aad351550"

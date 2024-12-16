@@ -1,0 +1,40 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "cac146d0-b722-11ef-a130-616cb502e45a"
+    },
+    "label" : null,
+    "name" : "Помывочная",
+    "type" : "room"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e2b2d4c0-b71d-11ef-a130-616cb502e45a"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "cac146d0-b722-11ef-a130-616cb502e45a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
