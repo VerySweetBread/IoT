@@ -621,7 +621,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "5bc37b5c-07a6-be2b-b639-455dbc8cc0bf",
+              "entityAliasId" : "8238613d-6eb6-db15-f625-e7ba74231dc8",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "adress",
@@ -894,7 +894,23 @@
               "cardCss" : ".temperature-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.thermometer-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.temperature-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.temperature-details h2 {\n    margin: 0;\n    font-size: 1.5em;\n}\n"
             },
             "title" : "HTML Card",
-            "dropShadow" : true
+            "dropShadow" : true,
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "to home ",
+                "icon" : "arrow_forward",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "home_card",
+                "setEntityId" : false,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "5bc53e53-64c3-bc43-02f7-cbb8db68f603"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -933,7 +949,23 @@
               "cardCss" : ".temperature-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.thermometer-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.temperature-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.temperature-details h2 {\n    margin: 0;\n    font-size: 1.5em;\n}\n"
             },
             "title" : "HTML Card",
-            "dropShadow" : true
+            "dropShadow" : true,
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "to bathhouse",
+                "icon" : "arrow_forward",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "bathhouse_card",
+                "setEntityId" : false,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "e5cd0976-56d3-a21c-2148-004ee49c56a4"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -1062,6 +1094,38 @@
               }
             }
           }
+        },
+        "home_card" : {
+          "name" : "Home_card",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "bathhouse_card" : {
+          "name" : "bathhouse_card",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
         }
       },
       "entityAliases" : {
@@ -1087,6 +1151,16 @@
               "entityType" : "DEVICE",
               "id" : "b18dc4f0-b7d5-11ef-8f6c-5527dbecb4b6"
             }
+          }
+        },
+        "8238613d-6eb6-db15-f625-e7ba74231dc8" : {
+          "id" : "8238613d-6eb6-db15-f625-e7ba74231dc8",
+          "alias" : "Buildings",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetTypes" : [ "building" ],
+            "assetNameFilter" : ""
           }
         }
       },
