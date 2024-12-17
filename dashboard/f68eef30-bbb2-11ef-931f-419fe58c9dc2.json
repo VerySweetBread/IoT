@@ -840,9 +840,10 @@
             "title" : "HTML Card",
             "dropShadow" : true,
             "actions" : {
-              "elementClick" : [ {
+              "elementClick" : [ ],
+              "headerButton" : [ {
                 "name" : "to_matter",
-                "icon" : "more_horiz",
+                "icon" : "arrow_forward",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "openDashboardState",
