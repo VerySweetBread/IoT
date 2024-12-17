@@ -803,6 +803,45 @@
           "row" : 0,
           "col" : 0,
           "id" : "fe72ff8a-6164-76e1-4bad-e189ffae0ef8"
+        },
+        "c247d4a6-ba92-f375-b6e8-14d98cb7362d" : {
+          "typeFullFqn" : "system.cards.html_card",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n    <div class=\"meter-card\">\n        <div class=\"meter-icon\">\n            <i class=\"fas fa-tint\"></i>\n        </div>\n        <div class=\"meter-details\">\n            <h2>Показания счетчиков</h2>\n        </div>\n    </div>\n",
+              "cardCss" : ".meter-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.meter-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.meter-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.meter-details h2 {\n    margin: 0 0 10px;\n    font-size: 1.5em;\n}\n\n.meter-details p {\n    margin: 5px 0;\n    font-size: 1em;\n    color: #555;\n}\n\n.meter-details p i {\n    margin-right: 10px;\n    color: #007BFF;\n}\n"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c247d4a6-ba92-f375-b6e8-14d98cb7362d"
         }
       },
       "states" : {
@@ -816,6 +855,12 @@
                   "sizeX" : 24,
                   "sizeY" : 7,
                   "row" : 0,
+                  "col" : 0
+                },
+                "c247d4a6-ba92-f375-b6e8-14d98cb7362d" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 7,
                   "col" : 0
                 }
               },
