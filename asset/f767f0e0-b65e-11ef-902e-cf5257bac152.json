@@ -71,6 +71,30 @@
     "typeGroup" : "COMMON"
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "adress",
+      "lastUpdateTs" : 1734438730871,
+      "longValue" : null,
+      "strValue" : "Нижегородский р-н,Нижний Новгород, Нижегородская обл., Кстовский район, деревня Зимёнки, ул. Набережная дом 6"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 56.159206,
+      "jsonValue" : null,
+      "key" : "lat",
+      "lastUpdateTs" : 1734438752221,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lon",
+      "lastUpdateTs" : 1734438767294,
+      "longValue" : null,
+      "strValue" : "44.268993"
+    } ]
   }
 }

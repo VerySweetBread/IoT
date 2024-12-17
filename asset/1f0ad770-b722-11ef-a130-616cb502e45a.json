@@ -29,7 +29,43 @@
     },
     "to" : {
       "entityType" : "DEVICE",
+      "id" : "85804c50-bc78-11ef-b10e-af03ab155d29"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1f0ad770-b722-11ef-a130-616cb502e45a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "91356df0-bc78-11ef-b10e-af03ab155d29"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1f0ad770-b722-11ef-a130-616cb502e45a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
       "id" : "aaf182b0-b791-11ef-a28c-95a0109f2276"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "1f0ad770-b722-11ef-a130-616cb502e45a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0df86480-bc76-11ef-b10e-af03ab155d29"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON"

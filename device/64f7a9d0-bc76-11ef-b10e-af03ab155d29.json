@@ -45,8 +45,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734440215841,
+      "lastUpdateTs" : 1734440842397,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1734440842398,
+      "longValue" : 1734440842397,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
