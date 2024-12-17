@@ -20,7 +20,7 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "ccb4cee0-be1b-11ee-bd46-eb4aad351550"
+      "id" : "96564880-bc74-11ef-b10e-af03ab155d29"
     },
     "externalId" : null,
     "firmwareId" : null,
@@ -31,7 +31,7 @@
     "label" : "",
     "name" : "Наружний датчик влажности",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "humidity sensor"
   },
   "credentials" : {
     "credentialsId" : "V2YN6wamJXgYXxVv4URo",
@@ -40,7 +40,15 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1734442043448,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
