@@ -683,6 +683,7 @@
               "gmDefaultMapType" : "roadmap",
               "mapProvider" : "OpenStreetMap.HOT",
               "useCustomProvider" : false,
+              "customProviderTileUrl" : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
               "mapProviderHere" : "HERE.normalDay",
               "credentials" : {
                 "useV3" : true,
@@ -719,7 +720,7 @@
               "showTooltipAction" : "click",
               "autocloseTooltip" : true,
               "useTooltipFunction" : false,
-              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}<br/><b>Temperature:</b> ${temperature} °C<br/><small>See advanced settings for details</small>",
+              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lon:7}<br/><b>Adress:</b> ${adress}<br/>",
               "tooltipFunction" : null,
               "tooltipOffsetX" : 0,
               "tooltipOffsetY" : -1,
@@ -837,11 +838,105 @@
               "cardCss" : ".meter-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.meter-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.meter-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.meter-details h2 {\n    margin: 0 0 10px;\n    font-size: 1.5em;\n}\n\n.meter-details p {\n    margin: 5px 0;\n    font-size: 1em;\n    color: #555;\n}\n\n.meter-details p i {\n    margin-right: 10px;\n    color: #007BFF;\n}\n"
             },
             "title" : "HTML Card",
-            "dropShadow" : true
+            "dropShadow" : true,
+            "actions" : {
+              "elementClick" : [ {
+                "name" : "to_matter",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "cotelroom",
+                "setEntityId" : false,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "943c271b-5005-2473-e565-98f38fc1c7ba"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
           "id" : "c247d4a6-ba92-f375-b6e8-14d98cb7362d"
+        },
+        "5c086907-931a-2c91-89b7-019372f4a301" : {
+          "typeFullFqn" : "system.cards.html_card",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : " <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n    <div class=\"temperature-card\">\n        <div class=\"thermometer-icon\">\n            <i class=\"fas fa-thermometer-half\"></i>\n        </div>\n        <div class=\"temperature-details\">\n            <h2>Температура в доме</h2>\n        </div>\n    </div>",
+              "cardCss" : ".temperature-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.thermometer-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.temperature-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.temperature-details h2 {\n    margin: 0;\n    font-size: 1.5em;\n}\n"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5c086907-931a-2c91-89b7-019372f4a301"
+        },
+        "58920819-f3a4-8183-e87b-c93f7525e3c7" : {
+          "typeFullFqn" : "system.cards.html_card",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15479322438769105,
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : " <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n    <div class=\"temperature-card\">\n        <div class=\"thermometer-icon\">\n            <i class=\"fas fa-thermometer-half\"></i>\n        </div>\n        <div class=\"temperature-details\">\n            <h2>Температура в бане</h2>\n        </div>\n    </div>",
+              "cardCss" : ".temperature-card {\n    background-color: #fff;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    overflow: hidden;\n    width: 400px;\n    margin: 20px;\n    display: flex;\n    align-items: center;\n}\n\n.thermometer-icon {\n    font-size: 100px;\n    color: #007BFF;\n    padding: 20px;\n    flex: 1;\n    text-align: center;\n}\n\n.temperature-details {\n    padding: 20px;\n    flex: 2;\n    text-align: left;\n}\n\n.temperature-details h2 {\n    margin: 0;\n    font-size: 1.5em;\n}\n"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "58920819-f3a4-8183-e87b-c93f7525e3c7"
         }
       },
       "states" : {
@@ -852,7 +947,7 @@
             "main" : {
               "widgets" : {
                 "fe72ff8a-6164-76e1-4bad-e189ffae0ef8" : {
-                  "sizeX" : 24,
+                  "sizeX" : 23,
                   "sizeY" : 7,
                   "row" : 0,
                   "col" : 0
@@ -862,6 +957,18 @@
                   "sizeY" : 3,
                   "row" : 7,
                   "col" : 0
+                },
+                "5c086907-931a-2c91-89b7-019372f4a301" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 7,
+                  "col" : 8
+                },
+                "58920819-f3a4-8183-e87b-c93f7525e3c7" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 7,
+                  "col" : 16
                 }
               },
               "gridSettings" : {
