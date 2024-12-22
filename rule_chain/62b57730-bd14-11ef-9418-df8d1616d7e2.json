@@ -172,11 +172,11 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.Power === metadata[\"ss_is_Power\"];"
+        "tbelScript" : "return msg.Open === metadata[\"ss_is_Power\"];"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -208,7 +208,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -227,11 +227,11 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "metadata.Power = msg.details.power;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+        "tbelScript" : "metadata.Open = msg.details.power;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -248,17 +248,17 @@
         "layoutY" : 534
       },
       "configuration" : {
-        "fromTemplate" : "woron0987654321@gmail.com",
-        "toTemplate" : "woron0987654321@gmail.com",
+        "fromTemplate" : "w0ron.black@yandex.ru",
+        "toTemplate" : "w0ron.black@yandex.ru",
         "ccTemplate" : null,
         "bccTemplate" : null,
         "subjectTemplate" : "Device ${deviceName}  is open in 5 minutes",
         "mailBodyType" : "false",
-        "bodyTemplate" : "Device ${deviceType}  is open because ..."
+        "bodyTemplate" : "Device ${deviceName}  is open in 5 minutes"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -276,23 +276,23 @@
       },
       "configuration" : {
         "useSystemSmtpSettings" : false,
-        "smtpProtocol" : "smtp",
-        "smtpHost" : "localhost",
-        "smtpPort" : 25,
-        "timeout" : 10000,
-        "enableTls" : false,
+        "smtpProtocol" : "smtps",
+        "smtpHost" : "smtp.yandex.ru",
+        "smtpPort" : 465,
+        "timeout" : 1000,
+        "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
         "proxyHost" : null,
         "proxyPort" : null,
         "proxyUser" : null,
         "proxyPassword" : null,
-        "username" : null,
-        "password" : null
+        "username" : "w0ron.black@yandex.ru",
+        "password" : "afpnzybglyoucwve"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -365,7 +365,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -420,7 +420,7 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -437,17 +437,17 @@
         "layoutY" : 597
       },
       "configuration" : {
-        "fromTemplate" : "woron0987654321@gmail.com",
-        "toTemplate" : "woron0987654321@gmail.com",
+        "fromTemplate" : "w0ron.black@yandex.ru",
+        "toTemplate" : "w0ron.black@yandex.ru",
         "ccTemplate" : null,
         "bccTemplate" : null,
         "subjectTemplate" : "Device ${deviceName}  is Powered in 5 minutes",
         "mailBodyType" : "false",
-        "bodyTemplate" : "Device ${deviceType}  is open because ..."
+        "bodyTemplate" : "Device ${deviceName}  is Powered in 5 minutes"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
@@ -465,23 +465,23 @@
       },
       "configuration" : {
         "useSystemSmtpSettings" : false,
-        "smtpProtocol" : "smtp",
-        "smtpHost" : "localhost",
-        "smtpPort" : 25,
-        "timeout" : 10000,
-        "enableTls" : false,
+        "smtpProtocol" : "smtps",
+        "smtpHost" : "smtp.yandex.ru",
+        "smtpPort" : 465,
+        "timeout" : 1000,
+        "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
         "proxyHost" : null,
         "proxyPort" : null,
         "proxyUser" : null,
         "proxyPassword" : null,
-        "username" : null,
-        "password" : null
+        "username" : "w0ron.black@yandex.ru",
+        "password" : "afpnzybglyoucwve"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
