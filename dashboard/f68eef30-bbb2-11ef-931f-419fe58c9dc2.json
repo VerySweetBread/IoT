@@ -1986,19 +1986,6 @@
             "widgetStyle" : { },
             "actions" : {
               "tooltipAction" : [ {
-                "name" : "Tooltip_click",
-                "icon" : "more_horiz",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "room_details",
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "01dd3661-7578-5cfd-c9bb-b4db7e78d0b7"
-              }, {
                 "name" : "tooltip_click_hall2",
                 "icon" : "more_horiz",
                 "useShowWidgetActionFunction" : null,
