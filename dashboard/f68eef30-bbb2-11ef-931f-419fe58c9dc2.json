@@ -1783,6 +1783,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "304b021e-c724-aa46-0e20-7ffbeae04888"
+              }, {
+                "name" : "tooltip_click_toilet1",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "toilet_1",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "dd46f6f3-d196-a286-1964-815441bf8747"
               } ]
             },
             "displayTimewindow" : true,
