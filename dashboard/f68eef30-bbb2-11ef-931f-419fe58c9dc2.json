@@ -1965,9 +1965,10 @@
           "sizeY" : 5,
           "config" : {
             "datasources" : [ {
-              "type" : "device",
+              "type" : "entity",
               "name" : "",
               "deviceId" : "8526ace0-b791-11ef-a28c-95a0109f2276",
+              "entityAliasId" : "e696b4c4-5b10-8af8-a61a-e6a684e51498",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
