@@ -1770,6 +1770,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "3bb777d9-e9ec-6f59-ddc3-060ffefbab9c"
+              }, {
+                "name" : "tooltip_click_hall1",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "hall_1",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "304b021e-c724-aa46-0e20-7ffbeae04888"
               } ]
             },
             "displayTimewindow" : true,
