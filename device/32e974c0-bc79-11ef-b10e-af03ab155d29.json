@@ -22,7 +22,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f3fba4a0-bc77-11ef-b10e-af03ab155d29"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "32e974c0-bc79-11ef-b10e-af03ab155d29"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -81,24 +84,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1734887201376,
-      "longValue" : 1734887199851,
+      "lastUpdateTs" : 1734876305042,
+      "longValue" : 1734876304879,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1734885970027,
-      "longValue" : 1734885970027,
+      "lastUpdateTs" : 1734876049279,
+      "longValue" : 1734876049279,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1734885968242,
-      "longValue" : 1734885968242,
+      "lastUpdateTs" : 1734876046293,
+      "longValue" : 1734876046293,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

@@ -12,12 +12,15 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "e7eae730-b721-11ef-a130-616cb502e45a"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "e7eae730-b721-11ef-a130-616cb502e45a"
     },
-    "label" : null,
+    "label" : "",
     "name" : "Кухня",
     "type" : "room"
   },
@@ -83,6 +86,22 @@
     "typeGroup" : "COMMON"
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 0.4,
+      "jsonValue" : null,
+      "key" : "x",
+      "lastUpdateTs" : 1734885956876,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.82,
+      "jsonValue" : null,
+      "key" : "y",
+      "lastUpdateTs" : 1734885939925,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }

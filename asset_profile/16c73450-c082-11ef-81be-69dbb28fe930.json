@@ -7,16 +7,13 @@
     "defaultQueueName" : null,
     "defaultRuleChainId" : null,
     "description" : null,
-    "externalId" : {
-      "entityType" : "ASSET_PROFILE",
-      "id" : "8b1616f0-b71d-11ef-a130-616cb502e45a"
-    },
+    "externalId" : null,
     "id" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "8b1616f0-b71d-11ef-a130-616cb502e45a"
+      "id" : "16c73450-c082-11ef-81be-69dbb28fe930"
     },
     "image" : null,
-    "name" : "land"
+    "name" : "first_floor"
   },
   "relations" : [ ],
   "attributes" : {

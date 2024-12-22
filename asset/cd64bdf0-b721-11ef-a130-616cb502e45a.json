@@ -12,7 +12,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "cd64bdf0-b721-11ef-a130-616cb502e45a"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "cd64bdf0-b721-11ef-a130-616cb502e45a"
@@ -35,6 +38,22 @@
     "typeGroup" : "COMMON"
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 0.135,
+      "jsonValue" : null,
+      "key" : "x",
+      "lastUpdateTs" : 1734886219810,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.82,
+      "jsonValue" : null,
+      "key" : "y",
+      "lastUpdateTs" : 1734886204486,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
