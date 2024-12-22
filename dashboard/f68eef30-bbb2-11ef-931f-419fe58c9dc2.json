@@ -2188,15 +2188,23 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "0f38d7e0-bfa4-11ef-ade8-61e04fda4f8c",
+              "deviceId" : "8526ace0-b791-11ef-a28c-95a0109f2276",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "Temperature",
                 "type" : "timeseries",
                 "label" : "Temperature",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.6893811256998865,
+                "_hash" : 0.5703223602189211,
                 "units" : "°C",
+                "decimals" : 0
+              }, {
+                "name" : "Humidity",
+                "type" : "timeseries",
+                "label" : "Humidity",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.5822030307827617,
                 "decimals" : 0
               } ],
               "alarmFilterConfig" : {
@@ -4784,6 +4792,230 @@
           "row" : 0,
           "col" : 0,
           "id" : "53e171ea-aa8a-cfa3-bae8-6178040b5741"
+        },
+        "93fb6c5e-8cb7-f6e8-c0d2-53e3d3c3cb53" : {
+          "typeFullFqn" : "system.charts.state_chart",
+          "type" : "timeseries",
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "4a782560-bc78-11ef-b10e-af03ab155d29",
+              "dataKeys" : [ {
+                "name" : "Power",
+                "type" : "timeseries",
+                "label" : "Temperature",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.8058157833921993,
+                "units" : "°C",
+                "decimals" : 0
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "stack" : false,
+              "fontSize" : 10,
+              "fontColor" : "#545454",
+              "showTooltip" : true,
+              "tooltipIndividual" : false,
+              "tooltipCumulative" : false,
+              "hideZeros" : false,
+              "tooltipValueFormatter" : "if (value > 0 && value <= 1) {\n    return 'On';\n} else if (value === 0) {\n    return 'Off';\n} else {\n    return '';\n}",
+              "grid" : {
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1,
+                "color" : "#545454",
+                "backgroundColor" : null,
+                "tickColor" : "#DDDDDD"
+              },
+              "xaxis" : {
+                "title" : null,
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "yaxis" : {
+                "min" : 0,
+                "max" : 1.2,
+                "title" : null,
+                "showLabels" : true,
+                "color" : "#545454",
+                "tickSize" : null,
+                "tickDecimals" : 0,
+                "ticksFormatter" : "if (value > 0 && value <= 1) {\n    return 'On';\n} else if (value === 0) {\n    return 'Off';\n} else {\n    return '';\n}"
+              },
+              "shadowSize" : 4,
+              "smoothLines" : false,
+              "comparisonEnabled" : false,
+              "timeForComparison" : "previousInterval",
+              "comparisonCustomIntervalValue" : 7200000,
+              "xaxisSecond" : {
+                "axisPosition" : "top",
+                "title" : null,
+                "showLabels" : true
+              },
+              "showLegend" : true,
+              "legendConfig" : {
+                "direction" : "column",
+                "position" : "right",
+                "sortDataKeys" : false,
+                "showMin" : false,
+                "showMax" : false,
+                "showAvg" : false,
+                "showTotal" : false,
+                "showLatest" : false
+              },
+              "customLegendEnabled" : false,
+              "dataKeysListForLabels" : [ ]
+            },
+            "title" : "State Chart",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "widgetStyle" : { },
+            "useDashboardTimewindow" : true,
+            "actions" : { },
+            "configMode" : "basic",
+            "showTitleIcon" : false,
+            "titleIcon" : "waterfall_chart",
+            "iconColor" : "#1F6BDD",
+            "displayTimewindow" : true,
+            "titleFont" : null,
+            "titleColor" : null
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "93fb6c5e-8cb7-f6e8-c0d2-53e3d3c3cb53"
+        },
+        "9e847f23-1dda-968f-7033-ae3c869a46e6" : {
+          "typeFullFqn" : "system.charts.state_chart",
+          "type" : "timeseries",
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "53cc73a0-bc78-11ef-b10e-af03ab155d29",
+              "dataKeys" : [ {
+                "name" : "Open",
+                "type" : "timeseries",
+                "label" : "Temperature",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3681840378374752,
+                "units" : "°C",
+                "decimals" : 0
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "stack" : false,
+              "fontSize" : 10,
+              "fontColor" : "#545454",
+              "showTooltip" : true,
+              "tooltipIndividual" : false,
+              "tooltipCumulative" : false,
+              "hideZeros" : false,
+              "tooltipValueFormatter" : "if (value > 0 && value <= 1) {\n    return 'On';\n} else if (value === 0) {\n    return 'Off';\n} else {\n    return '';\n}",
+              "grid" : {
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1,
+                "color" : "#545454",
+                "backgroundColor" : null,
+                "tickColor" : "#DDDDDD"
+              },
+              "xaxis" : {
+                "title" : null,
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "yaxis" : {
+                "min" : 0,
+                "max" : 1.2,
+                "title" : null,
+                "showLabels" : true,
+                "color" : "#545454",
+                "tickSize" : null,
+                "tickDecimals" : 0,
+                "ticksFormatter" : "if (value > 0 && value <= 1) {\n    return 'On';\n} else if (value === 0) {\n    return 'Off';\n} else {\n    return '';\n}"
+              },
+              "shadowSize" : 4,
+              "smoothLines" : false,
+              "comparisonEnabled" : false,
+              "timeForComparison" : "previousInterval",
+              "comparisonCustomIntervalValue" : 7200000,
+              "xaxisSecond" : {
+                "axisPosition" : "top",
+                "title" : null,
+                "showLabels" : true
+              },
+              "showLegend" : true,
+              "legendConfig" : {
+                "direction" : "column",
+                "position" : "right",
+                "sortDataKeys" : false,
+                "showMin" : false,
+                "showMax" : false,
+                "showAvg" : false,
+                "showTotal" : false,
+                "showLatest" : false
+              },
+              "customLegendEnabled" : false,
+              "dataKeysListForLabels" : [ ]
+            },
+            "title" : "State Chart",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "widgetStyle" : { },
+            "useDashboardTimewindow" : true,
+            "actions" : { },
+            "configMode" : "basic",
+            "showTitleIcon" : false,
+            "titleIcon" : "waterfall_chart",
+            "iconColor" : "#1F6BDD",
+            "displayTimewindow" : true,
+            "titleFont" : null,
+            "titleColor" : null
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "9e847f23-1dda-968f-7033-ae3c869a46e6"
         }
       },
       "states" : {
@@ -5042,6 +5274,18 @@
                   "sizeY" : 5,
                   "row" : 0,
                   "col" : 0
+                },
+                "93fb6c5e-8cb7-f6e8-c0d2-53e3d3c3cb53" : {
+                  "sizeX" : 8,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 8
+                },
+                "9e847f23-1dda-968f-7033-ae3c869a46e6" : {
+                  "sizeX" : 8,
+                  "sizeY" : 5,
+                  "row" : 5,
+                  "col" : 4
                 }
               },
               "gridSettings" : {
