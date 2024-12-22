@@ -88,6 +88,14 @@
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734895262908,
+      "longValue" : null,
+      "strValue" : "tooltip_click_hall1"
+    }, {
+      "booleanValue" : null,
       "doubleValue" : 0.3,
       "jsonValue" : null,
       "key" : "x",

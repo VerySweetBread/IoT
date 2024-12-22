@@ -88,6 +88,14 @@
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734895467032,
+      "longValue" : null,
+      "strValue" : "tooltip_click_guestroom"
+    }, {
+      "booleanValue" : null,
       "doubleValue" : 0.5,
       "jsonValue" : null,
       "key" : "x",

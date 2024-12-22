@@ -88,6 +88,14 @@
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734895526684,
+      "longValue" : null,
+      "strValue" : "tooltip_click_toilet2"
+    }, {
+      "booleanValue" : null,
       "doubleValue" : 0.135,
       "jsonValue" : null,
       "key" : "x",
