@@ -88,6 +88,14 @@
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734895063963,
+      "longValue" : null,
+      "strValue" : "tooltip_click_cotel"
+    }, {
+      "booleanValue" : null,
       "doubleValue" : 0.8,
       "jsonValue" : null,
       "key" : "x",
