@@ -1074,7 +1074,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7501c7b0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "0ec29670-bfa4-11ef-ade8-61e04fda4f8c",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1159,7 +1159,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Санузел",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1189,7 +1189,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8c4437a0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "9267bc90-bbed-11ef-90e5-7ff2f1ae5a2e",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1206,7 +1206,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.9205994975859022,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1274,7 +1275,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Парилка",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1304,7 +1305,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7501c7b0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "924c4550-bbed-11ef-90e5-7ff2f1ae5a2e",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1321,7 +1322,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.6532825174828025,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1389,7 +1391,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Общее",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -2036,13 +2038,13 @@
             "main" : {
               "widgets" : {
                 "fa74d316-f856-c434-a075-d02fba092126" : {
-                  "sizeX" : 24,
+                  "sizeX" : 12,
                   "sizeY" : 5,
-                  "row" : 15,
-                  "col" : 0
+                  "row" : 10,
+                  "col" : 12
                 },
                 "ed067c3d-3479-1aa0-b795-4b4822228a26" : {
-                  "sizeX" : 24,
+                  "sizeX" : 11,
                   "sizeY" : 5,
                   "row" : 10,
                   "col" : 0
