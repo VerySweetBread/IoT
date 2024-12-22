@@ -1074,7 +1074,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7501c7b0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "0ec29670-bfa4-11ef-ade8-61e04fda4f8c",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1159,7 +1159,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Санузел",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1189,7 +1189,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "8c4437a0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "9267bc90-bbed-11ef-90e5-7ff2f1ae5a2e",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1206,7 +1206,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.9205994975859022,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1274,7 +1275,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Парилка",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1304,7 +1305,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7501c7b0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "924c4550-bbed-11ef-90e5-7ff2f1ae5a2e",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -1321,7 +1322,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.6532825174828025,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -1389,7 +1391,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Общее",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1869,157 +1871,6 @@
           "row" : 0,
           "col" : 0,
           "id" : "1dab6008-b862-dec6-37c5-408b6efccff6"
-        },
-        "31a6ab3a-7f44-8f26-7b49-cebb24d0921d" : {
-          "typeFullFqn" : "system.alarm_widgets.alarms_table",
-          "type" : "alarm",
-          "sizeX" : 10.5,
-          "sizeY" : 6.5,
-          "config" : {
-            "timewindow" : {
-              "realtime" : {
-                "interval" : 1000,
-                "timewindowMs" : 86400000
-              },
-              "aggregation" : {
-                "type" : "NONE",
-                "limit" : 200
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "rgb(255, 255, 255)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "4px",
-            "settings" : {
-              "enableSelection" : true,
-              "enableSearch" : true,
-              "displayDetails" : true,
-              "allowAcknowledgment" : true,
-              "allowClear" : true,
-              "allowAssign" : true,
-              "displayActivity" : true,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
-              "defaultSortOrder" : "-createdTime",
-              "enableSelectColumnDisplay" : true,
-              "enableStickyAction" : false,
-              "enableFilter" : true,
-              "entitiesTitle" : null,
-              "alarmsTitle" : "Alarms"
-            },
-            "title" : "Alarms table",
-            "dropShadow" : true,
-            "enableFullscreen" : true,
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400,
-              "padding" : "5px 10px 5px 10px"
-            },
-            "useDashboardTimewindow" : false,
-            "showLegend" : false,
-            "alarmSource" : {
-              "type" : "entity",
-              "name" : "",
-              "entityAliasId" : "aa99f8b3-b7cd-86f1-4386-715b9215c700",
-              "dataKeys" : [ {
-                "name" : "createdTime",
-                "type" : "alarm",
-                "label" : "Created time",
-                "color" : "#2196f3",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "cellContentFunction" : ""
-                },
-                "_hash" : 0.021092237451093787,
-                "funcBody" : null
-              }, {
-                "name" : "originator",
-                "type" : "alarm",
-                "label" : "Originator",
-                "color" : "#4caf50",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "cellContentFunction" : ""
-                },
-                "_hash" : 0.2780007688856758,
-                "funcBody" : null
-              }, {
-                "name" : "type",
-                "type" : "alarm",
-                "label" : "Type",
-                "color" : "#f44336",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "cellContentFunction" : ""
-                },
-                "_hash" : 0.7323586880398418,
-                "funcBody" : null
-              }, {
-                "name" : "severity",
-                "type" : "alarm",
-                "label" : "Severity",
-                "color" : "#ffc107",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "useCellContentFunction" : false
-                },
-                "_hash" : 0.09927019860088193,
-                "funcBody" : null
-              }, {
-                "name" : "status",
-                "type" : "alarm",
-                "label" : "Status",
-                "color" : "#607d8b",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "cellContentFunction" : ""
-                },
-                "_hash" : 0.6588418951443418,
-                "funcBody" : null
-              }, {
-                "name" : "assignee",
-                "type" : "alarm",
-                "label" : "Assignee",
-                "color" : "#9c27b0",
-                "settings" : { },
-                "_hash" : 0.5008441077416634,
-                "funcBody" : null
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            },
-            "alarmsPollingInterval" : 5,
-            "showTitleIcon" : false,
-            "titleIcon" : "warning",
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "titleTooltip" : "",
-            "widgetStyle" : { },
-            "displayTimewindow" : true,
-            "actions" : { },
-            "configMode" : "basic",
-            "alarmFilterConfig" : {
-              "statusList" : [ ],
-              "severityList" : [ ],
-              "typeList" : [ ],
-              "searchPropagatedAlarms" : false
-            },
-            "datasources" : [ ],
-            "titleFont" : null,
-            "titleColor" : null
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "31a6ab3a-7f44-8f26-7b49-cebb24d0921d"
         }
       },
       "states" : {
@@ -2043,12 +1894,6 @@
                 },
                 "4b337569-4954-6267-77f8-46302c41541e" : {
                   "sizeX" : 7,
-                  "sizeY" : 4,
-                  "row" : 7,
-                  "col" : 16
-                },
-                "31a6ab3a-7f44-8f26-7b49-cebb24d0921d" : {
-                  "sizeX" : 10,
                   "sizeY" : 4,
                   "row" : 7,
                   "col" : 6
@@ -2193,21 +2038,21 @@
             "main" : {
               "widgets" : {
                 "fa74d316-f856-c434-a075-d02fba092126" : {
-                  "sizeX" : 8,
+                  "sizeX" : 12,
                   "sizeY" : 5,
-                  "row" : 0,
-                  "col" : 16
+                  "row" : 10,
+                  "col" : 12
                 },
                 "ed067c3d-3479-1aa0-b795-4b4822228a26" : {
-                  "sizeX" : 8,
+                  "sizeX" : 11,
                   "sizeY" : 5,
-                  "row" : 5,
-                  "col" : 8
+                  "row" : 10,
+                  "col" : 0
                 },
                 "872473d4-1062-827c-67cb-937883dab031" : {
-                  "sizeX" : 8,
+                  "sizeX" : 24,
                   "sizeY" : 5,
-                  "row" : 0,
+                  "row" : 5,
                   "col" : 0
                 }
               },
@@ -2257,14 +2102,14 @@
             "assetNameFilter" : ""
           }
         },
-        "aa99f8b3-b7cd-86f1-4386-715b9215c700" : {
-          "id" : "aa99f8b3-b7cd-86f1-4386-715b9215c700",
-          "alias" : "Alarms",
+        "86e54102-1e85-af11-69e0-09a5feb20629" : {
+          "id" : "86e54102-1e85-af11-69e0-09a5feb20629",
+          "alias" : "Rooms",
           "filter" : {
-            "type" : "deviceType",
+            "type" : "assetType",
             "resolveMultiple" : true,
-            "deviceTypes" : [ "radiator", "window" ],
-            "deviceNameFilter" : ""
+            "assetTypes" : [ "room" ],
+            "assetNameFilter" : ""
           }
         }
       },
