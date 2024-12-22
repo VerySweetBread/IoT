@@ -2227,6 +2227,16 @@
             "assetTypes" : [ "second_floor" ],
             "assetNameFilter" : ""
           }
+        },
+        "e696b4c4-5b10-8af8-a61a-e6a684e51498" : {
+          "id" : "e696b4c4-5b10-8af8-a61a-e6a684e51498",
+          "alias" : "Selected sensor",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
+          }
         }
       },
       "filters" : { },
