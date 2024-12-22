@@ -53,10 +53,6 @@
       "toIndex" : 6,
       "type" : "Success"
     }, {
-      "fromIndex" : 6,
-      "toIndex" : 7,
-      "type" : "Success"
-    }, {
       "fromIndex" : 8,
       "toIndex" : 2,
       "type" : "True"
@@ -83,10 +79,6 @@
     }, {
       "fromIndex" : 12,
       "toIndex" : 13,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 13,
-      "toIndex" : 14,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -279,7 +271,7 @@
         "smtpProtocol" : "smtps",
         "smtpHost" : "smtp.yandex.ru",
         "smtpPort" : 465,
-        "timeout" : 1000,
+        "timeout" : 50000,
         "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
@@ -288,7 +280,7 @@
         "proxyUser" : null,
         "proxyPassword" : null,
         "username" : "w0ron.black@yandex.ru",
-        "password" : "afpnzybglyoucwve"
+        "password" : "ditrkkzrtzuqezsq"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
@@ -468,7 +460,7 @@
         "smtpProtocol" : "smtps",
         "smtpHost" : "smtp.yandex.ru",
         "smtpPort" : 465,
-        "timeout" : 1000,
+        "timeout" : 50000,
         "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
@@ -477,7 +469,7 @@
         "proxyUser" : null,
         "proxyPassword" : null,
         "username" : "w0ron.black@yandex.ru",
-        "password" : "afpnzybglyoucwve"
+        "password" : "ditrkkzrtzuqezsq"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
