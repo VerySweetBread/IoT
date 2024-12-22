@@ -1025,12 +1025,12 @@
             "showLegend" : false,
             "actions" : {
               "headerButton" : [ {
-                "name" : "To Bathouse",
+                "name" : "To Home",
                 "icon" : "arrow_forward",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "openDashboardState",
-                "targetDashboardStateId" : "bathhouse_card",
+                "targetDashboardStateId" : "home_card",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openRightLayout" : false,
