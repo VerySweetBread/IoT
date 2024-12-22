@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "e0e99050-bd19-11ef-9418-df8d1616d7e2"
+      "id" : "de12c5c0-c09f-11ef-9afb-dfbe17f04697"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -56,10 +56,6 @@
       "toIndex" : 6,
       "type" : "Success"
     }, {
-      "fromIndex" : 6,
-      "toIndex" : 7,
-      "type" : "Success"
-    }, {
       "fromIndex" : 8,
       "toIndex" : 2,
       "type" : "True"
@@ -87,10 +83,6 @@
       "fromIndex" : 12,
       "toIndex" : 13,
       "type" : "Success"
-    }, {
-      "fromIndex" : 13,
-      "toIndex" : 14,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -110,7 +102,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e0e99050-bd19-11ef-9418-df8d1616d7e2"
+        "id" : "de12c5c0-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "IsRediatorWindow",
       "ruleChainId" : null,
@@ -133,7 +125,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e0ef83c0-bd19-11ef-9418-df8d1616d7e2"
+        "id" : "de12c5c1-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "saveTelemetry",
       "ruleChainId" : null,
@@ -160,7 +152,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e0f0e350-bd19-11ef-9418-df8d1616d7e2"
+        "id" : "de12c5c2-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "OratWindow",
       "ruleChainId" : null,
@@ -175,15 +167,15 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.Power === metadata[\"ss_is_Power\"];"
+        "tbelScript" : "return msg.Open === metadata[\"ss_is_Power\"];"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e0f1a6a0-bd19-11ef-9418-df8d1616d7e2"
+        "id" : "de12ecd0-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "WindowCorrect",
       "ruleChainId" : null,
@@ -211,11 +203,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3778370-bd1a-11ef-9418-df8d1616d7e2"
+        "id" : "de12ecd1-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "CAWindow",
       "ruleChainId" : null,
@@ -230,15 +222,15 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return {msg: msg, metadata: metadata, msgType: msgType};",
-        "tbelScript" : "metadata.Power = msg.details.power;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+        "tbelScript" : "metadata.Open = msg.details.power;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3786dd0-bd1a-11ef-9418-df8d1616d7e2"
+        "id" : "de138910-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "SendDataWindow",
       "ruleChainId" : null,
@@ -251,21 +243,21 @@
         "layoutY" : 534
       },
       "configuration" : {
-        "fromTemplate" : "woron0987654321@gmail.com",
-        "toTemplate" : "woron0987654321@gmail.com",
+        "fromTemplate" : "w0ron.black@yandex.ru",
+        "toTemplate" : "w0ron.black@yandex.ru",
         "ccTemplate" : null,
         "bccTemplate" : null,
         "subjectTemplate" : "Device ${deviceName}  is open in 5 minutes",
         "mailBodyType" : "false",
-        "bodyTemplate" : "Device ${deviceType}  is open because ..."
+        "bodyTemplate" : "Device ${deviceName}  is open in 5 minutes"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3795830-bd1a-11ef-9418-df8d1616d7e2"
+        "id" : "de13b020-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "sendWindow",
       "ruleChainId" : null,
@@ -279,27 +271,27 @@
       },
       "configuration" : {
         "useSystemSmtpSettings" : false,
-        "smtpProtocol" : "smtp",
-        "smtpHost" : "localhost",
-        "smtpPort" : 25,
-        "timeout" : 10000,
-        "enableTls" : false,
+        "smtpProtocol" : "smtps",
+        "smtpHost" : "smtp.yandex.ru",
+        "smtpPort" : 465,
+        "timeout" : 50000,
+        "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
         "proxyHost" : null,
         "proxyPort" : null,
         "proxyUser" : null,
         "proxyPassword" : null,
-        "username" : null,
-        "password" : null
+        "username" : "w0ron.black@yandex.ru",
+        "password" : "vbbwyfzlabrhsqee"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f37ab7c0-bd1a-11ef-9418-df8d1616d7e2"
+        "id" : "de147370-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "sendWindow",
       "ruleChainId" : null,
@@ -322,7 +314,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17d6f180-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de147371-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "IsWindow",
       "ruleChainId" : null,
@@ -349,7 +341,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17dda840-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de149a80-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "OratRadiator",
       "ruleChainId" : null,
@@ -368,11 +360,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17de6b90-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de149a81-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "RadiatorCorrect",
       "ruleChainId" : null,
@@ -404,7 +396,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17e103a0-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de149a82-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "CARadiator",
       "ruleChainId" : null,
@@ -423,11 +415,11 @@
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17e28a40-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de14c190-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "SendDataRadiator",
       "ruleChainId" : null,
@@ -440,21 +432,21 @@
         "layoutY" : 597
       },
       "configuration" : {
-        "fromTemplate" : "woron0987654321@gmail.com",
-        "toTemplate" : "woron0987654321@gmail.com",
+        "fromTemplate" : "w0ron.black@yandex.ru",
+        "toTemplate" : "w0ron.black@yandex.ru",
         "ccTemplate" : null,
         "bccTemplate" : null,
         "subjectTemplate" : "Device ${deviceName}  is Powered in 5 minutes",
         "mailBodyType" : "false",
-        "bodyTemplate" : "Device ${deviceType}  is open because ..."
+        "bodyTemplate" : "Device ${deviceName}  is Powered in 5 minutes"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17e39bb0-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de14c191-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "sendRadiator",
       "ruleChainId" : null,
@@ -468,27 +460,27 @@
       },
       "configuration" : {
         "useSystemSmtpSettings" : false,
-        "smtpProtocol" : "smtp",
-        "smtpHost" : "localhost",
-        "smtpPort" : 25,
-        "timeout" : 10000,
-        "enableTls" : false,
+        "smtpProtocol" : "smtps",
+        "smtpHost" : "smtp.yandex.ru",
+        "smtpPort" : 465,
+        "timeout" : 50000,
+        "enableTls" : true,
         "tlsVersion" : "TLSv1.2",
         "enableProxy" : false,
         "proxyHost" : null,
         "proxyPort" : null,
         "proxyUser" : null,
         "proxyPassword" : null,
-        "username" : null,
-        "password" : null
+        "username" : "w0ron.black@yandex.ru",
+        "password" : "vbbwyfzlabrhsqee"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
-      "debugMode" : false,
+      "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "17e59780-bd5f-11ef-a743-5dec6ca0ce92"
+        "id" : "de14c192-c09f-11ef-9afb-dfbe17f04697"
       },
       "name" : "sendRadiator",
       "ruleChainId" : null,
