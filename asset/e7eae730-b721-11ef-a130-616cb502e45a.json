@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
+      "id" : "16c73450-c082-11ef-81be-69dbb28fe930"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -20,9 +20,9 @@
       "entityType" : "ASSET",
       "id" : "e7eae730-b721-11ef-a130-616cb502e45a"
     },
-    "label" : "",
+    "label" : null,
     "name" : "Кухня",
-    "type" : "room"
+    "type" : "first_floor"
   },
   "relations" : [ {
     "additionalInfo" : null,

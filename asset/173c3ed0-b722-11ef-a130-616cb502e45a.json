@@ -88,20 +88,20 @@
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : null,
-      "doubleValue" : 0.85,
+      "doubleValue" : 0.81,
       "jsonValue" : null,
       "key" : "x",
-      "lastUpdateTs" : 1734886330969,
+      "lastUpdateTs" : 1734889461293,
       "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : null,
+      "doubleValue" : 0.95,
       "jsonValue" : null,
       "key" : "y",
-      "lastUpdateTs" : 1734886343514,
+      "lastUpdateTs" : 1734889446804,
       "longValue" : null,
-      "strValue" : "0,85"
+      "strValue" : null
     } ]
   }
 }

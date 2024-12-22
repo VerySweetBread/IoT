@@ -17,7 +17,10 @@
       }
     },
     "etag" : "97806459178d33a67884998306c8022a58b8f9058ea74526dee447617c75799b",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "44f3fe90-c081-11ef-81be-69dbb28fe930"
+    },
     "fileName" : "photo_2024-12-22_19-23-55.jpg",
     "id" : {
       "entityType" : "TB_RESOURCE",
