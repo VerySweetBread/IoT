@@ -22,14 +22,17 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f3fba4a0-bc77-11ef-b10e-af03ab155d29"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "bd041200-bc79-11ef-b10e-af03ab155d29"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "bd041200-bc79-11ef-b10e-af03ab155d29"
     },
-    "label" : "",
-    "name" : "окно санузел дом 1",
+    "label" : "Дом 1: Санузел",
+    "name" : "1Окно Санузел Дом 1",
     "softwareId" : null,
     "type" : "radiator"
   },
@@ -40,7 +43,23 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1734790295065,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1734790295065,
+      "longValue" : 1734790295057,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
