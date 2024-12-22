@@ -22,13 +22,16 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "96564880-bc74-11ef-b10e-af03ab155d29"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "c9d1c1d0-bc74-11ef-b10e-af03ab155d29"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "c9d1c1d0-bc74-11ef-b10e-af03ab155d29"
     },
-    "label" : "",
+    "label" : "Дом 1: Санузел",
     "name" : "Датчик влажности Санузел Дом 1",
     "softwareId" : null,
     "type" : "humidity sensor"
@@ -53,11 +56,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734445355541,
+      "lastUpdateTs" : 1734790295062,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -65,8 +68,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1734440182385,
-      "longValue" : 1734440182384,
+      "lastUpdateTs" : 1734790295062,
+      "longValue" : 1734790295057,
       "strValue" : null
     }, {
       "booleanValue" : null,
