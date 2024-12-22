@@ -2036,21 +2036,21 @@
             "main" : {
               "widgets" : {
                 "fa74d316-f856-c434-a075-d02fba092126" : {
-                  "sizeX" : 8,
+                  "sizeX" : 24,
                   "sizeY" : 5,
-                  "row" : 0,
-                  "col" : 16
+                  "row" : 15,
+                  "col" : 0
                 },
                 "ed067c3d-3479-1aa0-b795-4b4822228a26" : {
-                  "sizeX" : 8,
+                  "sizeX" : 24,
                   "sizeY" : 5,
-                  "row" : 5,
-                  "col" : 8
+                  "row" : 10,
+                  "col" : 0
                 },
                 "872473d4-1062-827c-67cb-937883dab031" : {
-                  "sizeX" : 8,
+                  "sizeX" : 24,
                   "sizeY" : 5,
-                  "row" : 0,
+                  "row" : 5,
                   "col" : 0
                 }
               },
