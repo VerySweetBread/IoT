@@ -7,7 +7,10 @@
     "defaultQueueName" : null,
     "defaultRuleChainId" : null,
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "ed2de900-c08f-11ef-81be-69dbb28fe930"
+    },
     "id" : {
       "entityType" : "ASSET_PROFILE",
       "id" : "ed2de900-c08f-11ef-81be-69dbb28fe930"
