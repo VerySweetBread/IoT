@@ -22,16 +22,13 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f3fba4a0-bc77-11ef-b10e-af03ab155d29"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "c51bde10-bc78-11ef-b10e-af03ab155d29"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "c51bde10-bc78-11ef-b10e-af03ab155d29"
     },
-    "label" : "Дом 2: Санузел",
+    "label" : "",
     "name" : "Батарея Санузел Дом 2",
     "softwareId" : null,
     "type" : "radiator"
@@ -56,11 +53,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734790295062,
+      "lastUpdateTs" : 1734872238040,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -68,32 +65,40 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1734790295062,
-      "longValue" : 1734790295057,
+      "lastUpdateTs" : 1734872225657,
+      "longValue" : 1734872225634,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "is_Power",
+      "lastUpdateTs" : 1734508740251,
+      "longValue" : 1,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1734447433799,
-      "longValue" : 1734447431057,
+      "lastUpdateTs" : 1734872390051,
+      "longValue" : 1734872387866,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1734447386905,
-      "longValue" : 1734447386905,
+      "lastUpdateTs" : 1734872238040,
+      "longValue" : 1734872238040,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1734447385524,
-      "longValue" : 1734447385524,
+      "lastUpdateTs" : 1734546876644,
+      "longValue" : 1734546876644,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

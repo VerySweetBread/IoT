@@ -22,16 +22,13 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "96564880-bc74-11ef-b10e-af03ab155d29"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "ba7b0f70-bc74-11ef-b10e-af03ab155d29"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "ba7b0f70-bc74-11ef-b10e-af03ab155d29"
     },
-    "label" : "Дом 1: Гостиная",
+    "label" : "",
     "name" : "Датчик влажности Гостиная Дом 1",
     "softwareId" : null,
     "type" : "humidity sensor"
@@ -56,11 +53,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734790295060,
+      "lastUpdateTs" : 1734872238064,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -68,32 +65,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1734790295061,
-      "longValue" : 1734790295057,
+      "lastUpdateTs" : 1734872225727,
+      "longValue" : 1734872225701,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1734447433799,
-      "longValue" : 1734447431056,
+      "lastUpdateTs" : 1734872390051,
+      "longValue" : 1734872387865,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1734447386905,
-      "longValue" : 1734447386905,
+      "lastUpdateTs" : 1734872238063,
+      "longValue" : 1734872238063,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1734447385524,
-      "longValue" : 1734447385524,
+      "lastUpdateTs" : 1734546876644,
+      "longValue" : 1734546876644,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

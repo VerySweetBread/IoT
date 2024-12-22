@@ -22,16 +22,13 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "f9d06910-bc77-11ef-b10e-af03ab155d29"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "ff64aca0-bc78-11ef-b10e-af03ab155d29"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "ff64aca0-bc78-11ef-b10e-af03ab155d29"
     },
-    "label" : "Дом 2: Жилая Комната 2",
+    "label" : "",
     "name" : "Окно Жилая Комната 2 Дом 2",
     "softwareId" : null,
     "type" : "window"
@@ -56,11 +53,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734790295063,
+      "lastUpdateTs" : 1734872237994,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -68,32 +65,40 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1734790295063,
-      "longValue" : 1734790295057,
+      "lastUpdateTs" : 1734872225573,
+      "longValue" : 1734872225563,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "is_Power",
+      "lastUpdateTs" : 1734508628189,
+      "longValue" : null,
+      "strValue" : "1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1734447433799,
-      "longValue" : 1734447431057,
+      "lastUpdateTs" : 1734872390051,
+      "longValue" : 1734872387866,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1734447386896,
-      "longValue" : 1734447386896,
+      "lastUpdateTs" : 1734872237993,
+      "longValue" : 1734872237993,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1734447385524,
-      "longValue" : 1734447385524,
+      "lastUpdateTs" : 1734546876644,
+      "longValue" : 1734546876644,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
