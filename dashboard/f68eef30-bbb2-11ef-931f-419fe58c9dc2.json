@@ -2230,12 +2230,29 @@
         },
         "e696b4c4-5b10-8af8-a61a-e6a684e51498" : {
           "id" : "e696b4c4-5b10-8af8-a61a-e6a684e51498",
-          "alias" : "Selected sensor",
+          "alias" : "Selected room",
           "filter" : {
             "type" : "stateEntity",
             "resolveMultiple" : false,
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
+          }
+        },
+        "c353282a-2e42-e07e-896f-fcc405da0526" : {
+          "id" : "c353282a-2e42-e07e-896f-fcc405da0526",
+          "alias" : "data",
+          "filter" : {
+            "type" : "deviceSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : true,
+            "relationType" : null,
+            "deviceTypes" : [ "humidity sensor", "radiator", "temperature sensor", "window" ]
           }
         }
       },
