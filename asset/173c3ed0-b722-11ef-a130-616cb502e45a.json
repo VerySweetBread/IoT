@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
+      "id" : "16c73450-c082-11ef-81be-69dbb28fe930"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -22,7 +22,7 @@
     },
     "label" : null,
     "name" : "Санузел 1",
-    "type" : "room"
+    "type" : "first_floor"
   },
   "relations" : [ {
     "additionalInfo" : null,
@@ -91,7 +91,7 @@
       "doubleValue" : 0.81,
       "jsonValue" : null,
       "key" : "x",
-      "lastUpdateTs" : 1734889461293,
+      "lastUpdateTs" : 1734891108009,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -99,7 +99,7 @@
       "doubleValue" : 0.95,
       "jsonValue" : null,
       "key" : "y",
-      "lastUpdateTs" : 1734889446804,
+      "lastUpdateTs" : 1734891097901,
       "longValue" : null,
       "strValue" : null
     } ]
