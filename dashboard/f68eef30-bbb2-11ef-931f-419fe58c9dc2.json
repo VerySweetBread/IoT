@@ -908,7 +908,22 @@
             "widgetStyle" : { },
             "useDashboardTimewindow" : true,
             "showLegend" : false,
-            "actions" : { },
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "To bathouse",
+                "icon" : "arrow_forward",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "bathhouse_card",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "9a5bc3de-b734-0c76-698e-0ff3deb2eb28"
+              } ]
+            },
             "displayTimewindow" : true,
             "showTitleIcon" : false,
             "titleTooltip" : "",
