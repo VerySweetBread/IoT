@@ -644,13 +644,6 @@
                 "color" : "#f44336",
                 "settings" : { },
                 "_hash" : 0.6596932282844172
-              }, {
-                "name" : "action",
-                "type" : "attribute",
-                "label" : "action",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.7204508578618292
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -727,7 +720,7 @@
               "showTooltipAction" : "click",
               "autocloseTooltip" : true,
               "useTooltipFunction" : false,
-              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lon:7}<br/><b>Adress:</b> ${adress}<br/> <link-act name='${action}'>Details</link-act>",
+              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lon:7}<br/><b>Adress:</b> ${adress}<br/> <link-act name='tooltip_click_Land'>Details</link-act>",
               "tooltipFunction" : null,
               "tooltipOffsetX" : 0,
               "tooltipOffsetY" : -1,
@@ -807,31 +800,18 @@
             "widgetStyle" : { },
             "actions" : {
               "tooltipAction" : [ {
-                "name" : "tooltip_click_home",
+                "name" : "tooltip_click_Land",
                 "icon" : "more_horiz",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "openDashboardState",
-                "targetDashboardStateId" : "home_card",
+                "targetDashboardStateId" : "land_details",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openRightLayout" : false,
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
-                "id" : "6ca8e08e-f849-85b8-d1fb-62da4ccf95e3"
-              }, {
-                "name" : "tooltip_click_bathhouse",
-                "icon" : "more_horiz",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "bathhouse_card",
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "33b4468b-13c9-c24e-4f7b-4bb252996ed6"
+                "id" : "6e3b5569-a268-11e7-f099-2118d96f638d"
               } ]
             },
             "displayTimewindow" : true
