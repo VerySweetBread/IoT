@@ -4778,7 +4778,7 @@
                 "apiKey" : "kVXykxAfZ6LS4EbCTO02soFVfjA7HoBzNVVH9u7nzoE"
               },
               "mapImageUrl" : null,
-              "imageEntityAlias" : "Buildings",
+              "imageEntityAlias" : "Selected building",
               "imageUrlAttribute" : "Image_URL",
               "tmApiKey" : "84d6d83e0e51e481e50454ccbe8986b",
               "tmDefaultMapType" : "roadmap",
@@ -5035,8 +5035,8 @@
             "main" : {
               "widgets" : {
                 "cc2f24e6-239d-f325-ed3e-a4d1e5a05802" : {
-                  "sizeX" : 8,
-                  "sizeY" : 6,
+                  "sizeX" : 14,
+                  "sizeY" : 9,
                   "row" : 0,
                   "col" : 0
                 }
