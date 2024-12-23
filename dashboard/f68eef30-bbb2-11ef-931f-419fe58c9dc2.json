@@ -5773,7 +5773,7 @@
           }
         },
         "hall_1" : {
-          "name" : "hall 1",
+          "name" : "Гостиная",
           "root" : false,
           "layouts" : {
             "main" : {
