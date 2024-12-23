@@ -814,7 +814,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7501c7b0-b7d6-11ef-8f6c-5527dbecb4b6",
+              "deviceId" : "7e7a3fc0-b7d6-11ef-8f6c-5527dbecb4b6",
               "dataKeys" : [ {
                 "name" : "Temperature",
                 "type" : "timeseries",
@@ -899,7 +899,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Температура и влажность в санузле ",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1014,7 +1014,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Влажность и температура в парилке",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1129,7 +1129,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Влажности и температура в гостиной ",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
