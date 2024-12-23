@@ -644,6 +644,13 @@
                 "color" : "#f44336",
                 "settings" : { },
                 "_hash" : 0.6596932282844172
+              }, {
+                "name" : "action",
+                "type" : "attribute",
+                "label" : "action",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.7204508578618292
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
