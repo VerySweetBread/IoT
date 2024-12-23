@@ -798,7 +798,22 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { },
+            "actions" : {
+              "tooltipAction" : [ {
+                "name" : "tooltip_click_home",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "home_card",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "6ca8e08e-f849-85b8-d1fb-62da4ccf95e3"
+              } ]
+            },
             "displayTimewindow" : true
           },
           "row" : 0,
