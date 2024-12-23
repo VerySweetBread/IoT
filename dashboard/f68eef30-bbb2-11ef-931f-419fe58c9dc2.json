@@ -5495,7 +5495,7 @@
             "defaultStateEntity" : null,
             "rootEntity" : null,
             "direction" : "FROM",
-            "maxLevel" : 1,
+            "maxLevel" : 3,
             "fetchLastLevelOnly" : true,
             "relationType" : null,
             "assetTypes" : [ "room" ]
