@@ -5703,7 +5703,7 @@
           }
         },
         "kitchen" : {
-          "name" : "Kitchen",
+          "name" : "Кухня",
           "root" : false,
           "layouts" : {
             "main" : {
