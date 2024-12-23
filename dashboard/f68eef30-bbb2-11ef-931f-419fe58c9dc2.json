@@ -5808,7 +5808,7 @@
           }
         },
         "guestroom" : {
-          "name" : "GuestRoom",
+          "name" : "Гостевая",
           "root" : false,
           "layouts" : {
             "main" : {
