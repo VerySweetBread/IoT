@@ -5451,7 +5451,7 @@
             "defaultStateEntity" : null,
             "rootEntity" : null,
             "direction" : "FROM",
-            "maxLevel" : 1,
+            "maxLevel" : 2,
             "fetchLastLevelOnly" : true,
             "relationType" : null,
             "deviceTypes" : [ "humidity sensor", "radiator", "temperature sensor", "window" ]
