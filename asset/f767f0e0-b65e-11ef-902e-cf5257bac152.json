@@ -78,6 +78,14 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734944069945,
+      "longValue" : null,
+      "strValue" : "tooltip_click_home"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "adress",
       "lastUpdateTs" : 1734438730871,
       "longValue" : null,

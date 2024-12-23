@@ -114,6 +114,14 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734944094203,
+      "longValue" : null,
+      "strValue" : "tooltip_click_bathhouse"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "adress",
       "lastUpdateTs" : 1734438819215,
       "longValue" : null,
