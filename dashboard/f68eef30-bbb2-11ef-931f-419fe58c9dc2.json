@@ -5738,7 +5738,7 @@
           }
         },
         "toilet_1" : {
-          "name" : "toilet 1",
+          "name" : "Санузел",
           "root" : false,
           "layouts" : {
             "main" : {
