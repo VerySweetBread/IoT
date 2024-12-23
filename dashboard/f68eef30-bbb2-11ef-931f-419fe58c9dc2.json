@@ -4480,7 +4480,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.14891654090115658,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
