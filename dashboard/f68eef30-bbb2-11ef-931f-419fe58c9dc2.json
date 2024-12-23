@@ -6738,7 +6738,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.31763630315679814,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -6806,7 +6807,7 @@
               },
               "customLegendEnabled" : false
             },
-            "title" : "Timeseries Line Chart",
+            "title" : "Температура и влажность ",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -6840,7 +6841,7 @@
               "dataKeys" : [ {
                 "name" : "Power",
                 "type" : "timeseries",
-                "label" : "Temperature",
+                "label" : "Power",
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.4923662646017204,
@@ -6917,7 +6918,7 @@
               "customLegendEnabled" : false,
               "dataKeysListForLabels" : [ ]
             },
-            "title" : "State Chart",
+            "title" : "Батарея",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -6952,7 +6953,7 @@
               "dataKeys" : [ {
                 "name" : "Open",
                 "type" : "timeseries",
-                "label" : "Temperature",
+                "label" : "Is Open ",
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.44348896396360793,
@@ -7029,7 +7030,7 @@
               "customLegendEnabled" : false,
               "dataKeysListForLabels" : [ ]
             },
-            "title" : "State Chart",
+            "title" : "Окно",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
