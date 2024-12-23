@@ -4714,7 +4714,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "8238613d-6eb6-db15-f625-e7ba74231dc8",
+              "entityAliasId" : "764406e1-769e-c318-7df3-815d3c6ff399",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "lat",
@@ -5448,6 +5448,16 @@
             "resolveMultiple" : true,
             "assetTypes" : [ "sauna" ],
             "assetNameFilter" : ""
+          }
+        },
+        "764406e1-769e-c318-7df3-815d3c6ff399" : {
+          "id" : "764406e1-769e-c318-7df3-815d3c6ff399",
+          "alias" : "Selected building",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
           }
         }
       },
