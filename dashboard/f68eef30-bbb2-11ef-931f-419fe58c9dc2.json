@@ -5907,7 +5907,7 @@
           }
         },
         "washroom" : {
-          "name" : "WashRoom",
+          "name" : "Душевая",
           "root" : false,
           "layouts" : {
             "main" : {
