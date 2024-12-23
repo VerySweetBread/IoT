@@ -5046,7 +5046,8 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.8602684570227241,
-                "decimals" : 0
+                "decimals" : 0,
+                "units" : "%"
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
