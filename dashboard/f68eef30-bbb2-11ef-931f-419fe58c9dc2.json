@@ -4730,6 +4730,13 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.39010771666177235
+              }, {
+                "name" : "action",
+                "type" : "attribute",
+                "label" : "action",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.7650073038102179
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -4806,7 +4813,7 @@
               "showTooltipAction" : "click",
               "autocloseTooltip" : true,
               "useTooltipFunction" : false,
-              "tooltipPattern" : "<b>${entityName}</b><br/><br/><link-act name='tooltip_to_data_click'>Details</link-act>",
+              "tooltipPattern" : "<b>${entityName}</b><br/><br/><link-act name='${action}'>Details</link-act>",
               "tooltipFunction" : null,
               "tooltipOffsetX" : 0,
               "tooltipOffsetY" : -1,
@@ -4887,6 +4894,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "18a14fe4-3312-4856-0ee6-7a09a1f53254"
+              }, {
+                "name" : "tooltip_click_kitchen",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "kitchen",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "c796305f-bd02-46db-bdef-9e251a86aa3f"
               } ]
             },
             "displayTimewindow" : true
