@@ -5923,7 +5923,7 @@
           }
         },
         "hallb" : {
-          "name" : "hallB",
+          "name" : "Гостинная Б",
           "root" : false,
           "layouts" : {
             "main" : {
