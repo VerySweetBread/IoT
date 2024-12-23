@@ -4714,7 +4714,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "e84fcf9e-7ffc-a10f-11a6-f705d7cb87dc",
+              "entityAliasId" : "6621bb71-5d87-4131-7910-ca44483c507c",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "x",
@@ -5482,6 +5482,23 @@
             "resolveMultiple" : false,
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
+          }
+        },
+        "6621bb71-5d87-4131-7910-ca44483c507c" : {
+          "id" : "6621bb71-5d87-4131-7910-ca44483c507c",
+          "alias" : "rooms",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : true,
+            "relationType" : null,
+            "assetTypes" : [ "room" ]
           }
         }
       },
