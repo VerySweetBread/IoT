@@ -44,11 +44,11 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1734440962399,
+      "lastUpdateTs" : 1734939332022,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -64,16 +64,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1734898046387,
-      "longValue" : 1734898044100,
+      "lastUpdateTs" : 1734940864745,
+      "longValue" : 1734940862551,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1734885970027,
-      "longValue" : 1734885970027,
+      "lastUpdateTs" : 1734939332021,
+      "longValue" : 1734939332021,
       "strValue" : null
     }, {
       "booleanValue" : null,
