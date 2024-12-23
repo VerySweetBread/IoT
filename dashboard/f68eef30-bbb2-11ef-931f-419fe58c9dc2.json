@@ -4714,7 +4714,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "c353282a-2e42-e07e-896f-fcc405da0526",
+              "entityAliasId" : "e84fcf9e-7ffc-a10f-11a6-f705d7cb87dc",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "x",
@@ -5414,10 +5414,17 @@
           "id" : "e84fcf9e-7ffc-a10f-11a6-f705d7cb87dc",
           "alias" : "1 floor",
           "filter" : {
-            "type" : "assetType",
+            "type" : "assetSearchQuery",
             "resolveMultiple" : true,
-            "assetTypes" : [ "first_floor" ],
-            "assetNameFilter" : ""
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 2,
+            "fetchLastLevelOnly" : true,
+            "relationType" : null,
+            "assetTypes" : [ "first_floor" ]
           }
         },
         "1a9df392-e482-559c-1e81-54132f91fb96" : {
