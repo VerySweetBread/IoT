@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "ed2de900-c08f-11ef-81be-69dbb28fe930"
+      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -21,8 +21,8 @@
       "id" : "1f0ad770-b722-11ef-a130-616cb502e45a"
     },
     "label" : null,
-    "name" : "Гостиная 2",
-    "type" : "second_floor"
+    "name" : "Жилая комната 3",
+    "type" : "room"
   },
   "relations" : [ {
     "additionalInfo" : null,

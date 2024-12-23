@@ -78,6 +78,14 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "Image_URL",
+      "lastUpdateTs" : 1734978299976,
+      "longValue" : null,
+      "strValue" : "https://galich-dom.ru/wp-content/uploads/img-20210810-wa0007.jpg"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "action",
       "lastUpdateTs" : 1734944069945,
       "longValue" : null,

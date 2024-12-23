@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "16c73450-c082-11ef-81be-69dbb28fe930"
+      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -21,8 +21,8 @@
       "id" : "f17b7b20-b721-11ef-a130-616cb502e45a"
     },
     "label" : null,
-    "name" : "Гостиная 1",
-    "type" : "first_floor"
+    "name" : "Гостиная",
+    "type" : "room"
   },
   "relations" : [ {
     "additionalInfo" : null,

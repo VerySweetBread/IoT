@@ -114,6 +114,14 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "Image_URL",
+      "lastUpdateTs" : 1734978832467,
+      "longValue" : null,
+      "strValue" : "https://www.srubdomabani.ru/upload/iblock/981/981ed6da3fc17c59cd4875f3a680b752.jpg"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "action",
       "lastUpdateTs" : 1734944094203,
       "longValue" : null,

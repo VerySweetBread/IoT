@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "53b41b60-c133-11ef-b854-290f3aa739b9"
+      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -21,8 +21,8 @@
       "id" : "b22b7be0-b722-11ef-a130-616cb502e45a"
     },
     "label" : "",
-    "name" : "Санузел Б",
-    "type" : "sauna"
+    "name" : "Душевая",
+    "type" : "room"
   },
   "relations" : [ {
     "additionalInfo" : null,
@@ -87,6 +87,14 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734982563600,
+      "longValue" : null,
+      "strValue" : "Tooltip_WashRoom_Click"
+    }, {
       "booleanValue" : null,
       "doubleValue" : 0.75,
       "jsonValue" : null,

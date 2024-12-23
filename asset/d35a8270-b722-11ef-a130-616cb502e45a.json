@@ -6,7 +6,7 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "53b41b60-c133-11ef-b854-290f3aa739b9"
+      "id" : "0eb00620-b65f-11ef-902e-cf5257bac152"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -22,7 +22,7 @@
     },
     "label" : null,
     "name" : "Парилка",
-    "type" : "sauna"
+    "type" : "room"
   },
   "relations" : [ {
     "additionalInfo" : null,
@@ -51,6 +51,14 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "action",
+      "lastUpdateTs" : 1734982419458,
+      "longValue" : null,
+      "strValue" : "tooltip_clik_parilka"
+    }, {
       "booleanValue" : null,
       "doubleValue" : 0.3,
       "jsonValue" : null,
