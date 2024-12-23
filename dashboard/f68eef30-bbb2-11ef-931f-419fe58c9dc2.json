@@ -5843,7 +5843,7 @@
           }
         },
         "hall2" : {
-          "name" : "Hall2",
+          "name" : "Жилая Комната 3",
           "root" : false,
           "layouts" : {
             "main" : {
