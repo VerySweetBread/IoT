@@ -4714,22 +4714,22 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : "",
-              "entityAliasId" : "764406e1-769e-c318-7df3-815d3c6ff399",
+              "entityAliasId" : "20ca4955-f6d3-3c82-144d-bcaef01c99e7",
               "filterId" : null,
               "dataKeys" : [ {
-                "name" : "lat",
+                "name" : "x",
                 "type" : "attribute",
-                "label" : "lat",
+                "label" : "x",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.8454534383613863
+                "_hash" : 0.7445432017342253
               }, {
-                "name" : "lon",
+                "name" : "y",
                 "type" : "attribute",
-                "label" : "lon",
+                "label" : "y",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.710006551619587
+                "_hash" : 0.39010771666177235
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -4784,8 +4784,8 @@
               "tmDefaultMapType" : "roadmap",
               "latKeyName" : "latitude",
               "lngKeyName" : "longitude",
-              "xPosKeyName" : "xPos",
-              "yPosKeyName" : "yPos",
+              "xPosKeyName" : "x",
+              "yPosKeyName" : "y",
               "defaultZoomLevel" : null,
               "defaultCenterPosition" : "0,0",
               "disableScrollZooming" : false,
@@ -4861,7 +4861,24 @@
               "circleStrokeOpacity" : 1,
               "circleStrokeWeight" : 3,
               "useCircleStrokeColorFunction" : false,
-              "circleStrokeColorFunction" : null
+              "circleStrokeColorFunction" : null,
+              "snappable" : false,
+              "initDragMode" : false,
+              "hideAllControlButton" : false,
+              "hideDrawControlButton" : false,
+              "hideEditControlButton" : false,
+              "hideRemoveControlButton" : false,
+              "useClusterMarkers" : false,
+              "zoomOnClick" : true,
+              "maxZoom" : null,
+              "maxClusterRadius" : 80,
+              "animate" : true,
+              "spiderfyOnMaxZoom" : false,
+              "showCoverageOnHover" : true,
+              "chunkedLoading" : false,
+              "removeOutsideVisibleBounds" : true,
+              "useIconCreateFunction" : false,
+              "clusterMarkerFunction" : null
             },
             "title" : "Image Map",
             "dropShadow" : true,
