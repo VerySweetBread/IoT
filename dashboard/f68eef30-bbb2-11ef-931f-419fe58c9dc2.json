@@ -5559,7 +5559,7 @@
           }
         },
         "cotelroom" : {
-          "name" : "cotelRoom",
+          "name" : "Котельная",
           "root" : false,
           "layouts" : {
             "main" : {
@@ -5687,7 +5687,7 @@
           }
         },
         "cotleroom" : {
-          "name" : "cotleRoom",
+          "name" : "Котельная",
           "root" : false,
           "layouts" : {
             "main" : {
