@@ -5913,7 +5913,7 @@
           }
         },
         "liveroom1" : {
-          "name" : "liveroom1",
+          "name" : "Жилая Комната 1",
           "root" : false,
           "layouts" : {
             "main" : {
