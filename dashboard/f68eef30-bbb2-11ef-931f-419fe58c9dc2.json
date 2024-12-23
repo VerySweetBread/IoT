@@ -720,7 +720,7 @@
               "showTooltipAction" : "click",
               "autocloseTooltip" : true,
               "useTooltipFunction" : false,
-              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lon:7}<br/><b>Adress:</b> ${adress}<br/>",
+              "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lon:7}<br/><b>Adress:</b> ${adress}<br/> <link-act name='${action}'>Details</link-act>",
               "tooltipFunction" : null,
               "tooltipOffsetX" : 0,
               "tooltipOffsetY" : -1,
