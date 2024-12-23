@@ -5878,7 +5878,7 @@
           }
         },
         "toilet2" : {
-          "name" : "toilet2",
+          "name" : "Холл",
           "root" : false,
           "layouts" : {
             "main" : {
