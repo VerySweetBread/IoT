@@ -812,6 +812,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "6ca8e08e-f849-85b8-d1fb-62da4ccf95e3"
+              }, {
+                "name" : "tooltip_click_bathhouse",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "bathhouse_card",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "33b4468b-13c9-c24e-4f7b-4bb252996ed6"
               } ]
             },
             "displayTimewindow" : true
