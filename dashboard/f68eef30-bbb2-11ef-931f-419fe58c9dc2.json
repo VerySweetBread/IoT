@@ -5948,7 +5948,7 @@
           }
         },
         "liveroom2" : {
-          "name" : "liveroom2",
+          "name" : "Жилая Комната 2",
           "root" : false,
           "layouts" : {
             "main" : {
