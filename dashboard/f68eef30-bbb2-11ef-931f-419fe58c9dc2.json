@@ -6201,7 +6201,7 @@
           }
         },
         "hall2" : {
-          "name" : "Жилая Комната 3",
+          "name" : "Санузел 2",
           "root" : false,
           "layouts" : {
             "main" : {
