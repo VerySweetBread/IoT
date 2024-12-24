@@ -812,20 +812,7 @@
             },
             "configMode" : "basic",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "To home ",
-                "icon" : "arrow_forward",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "home_card",
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "0d94d35c-5603-a4ec-cd62-9a48b24372a1"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
@@ -942,20 +929,7 @@
             },
             "configMode" : "basic",
             "actions" : {
-              "headerButton" : [ {
-                "name" : "bath_house",
-                "icon" : "arrow_forward",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "bathhouse_card",
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "7b2e6d2c-af7d-1c17-6a7e-d1a7c2284c05"
-              } ]
+              "headerButton" : [ ]
             },
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
